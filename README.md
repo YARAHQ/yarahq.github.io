@@ -19,3 +19,7 @@ Select the package that aligns with your security strategy.
 ## Overview
 
 ![YARA Forge Overview](./images/yara-forge-infograph.png)
+
+## Credits
+
+[Florian Roth](https://x.com/cyb3rops)
