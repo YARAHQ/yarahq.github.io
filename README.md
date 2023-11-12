@@ -2,8 +2,6 @@ YARA Forge specializes in delivering high-quality YARA rule packages for immedia
 
 The output is a set of reliable, performance-oriented YARA rules, curated and ready for use by analysts and security teams. With YARA Forge, you get a straightforward solution to employing consistent and effective YARA rules without the hassle.
 
-Download our ready-to-use rule packages and enhance your cybersecurity effortlessly.
-
 ## Rule Sets
 
 Choose the YARA rule set that meets your requirements:
