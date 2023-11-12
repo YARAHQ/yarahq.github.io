@@ -6,6 +6,6 @@ description: YARA Forge - Streamlined YARA Rule Integration
 show_downloads: true
 google_analytics: G-5E91C4P04Y
 github:
-  zip_url: https://github.com/YARAHQ/yara-forge/releases/download/latest/yara-forge-rules-core.zip
-  tar_url: https://github.com/YARAHQ/yara-forge/releases/download/latest/yara-forge-rules-extended.zip
-  repository_url: https://github.com/YARAHQ/yara-forge/releases/download/latest/yara-forge-rules-full.zip
+  core: https://github.com/YARAHQ/yara-forge/releases/download/latest/yara-forge-rules-core.zip
+  extended: https://github.com/YARAHQ/yara-forge/releases/download/latest/yara-forge-rules-extended.zip
+  full: https://github.com/YARAHQ/yara-forge/releases/download/latest/yara-forge-rules-full.zip
