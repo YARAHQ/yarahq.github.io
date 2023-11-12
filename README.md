@@ -22,7 +22,7 @@ The integrated YARA rule repositories can be reviewed [here](https://github.com/
 
 ## Overview
 
-![YARA Forge Overview](./images/yara-forge-infograph.png)
+![YARA Forge Overview](./assets/images/yara-forge-infograph.png)
 
 ## Credits
 
