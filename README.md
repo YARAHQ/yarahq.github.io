@@ -20,6 +20,10 @@ Select the package that aligns with your security strategy.
 
 The integrated YARA rule repositories can be reviewed [here](https://github.com/YARAHQ/yara-forge/blob/master/yara-forge-config.yml).
 
+## YARA Forge Program Code
+
+You can find the YARA Forge program code and configuration [here](https://github.com/YARAHQ/yara-forge).
+
 ## Overview
 
 ![YARA Forge Overview](./assets/images/yara-forge-infograph.png)
