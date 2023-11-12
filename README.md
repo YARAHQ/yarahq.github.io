@@ -16,6 +16,10 @@ Choose the YARA rule set that meets your requirements:
 
 Select the package that aligns with your security strategy.
 
+## Input Repositories
+
+The integrated YARA rule repositories can be reviewed [here](https://github.com/YARAHQ/yara-forge/blob/master/yara-forge-config.yml).
+
 ## Overview
 
 ![YARA Forge Overview](./images/yara-forge-infograph.png)
