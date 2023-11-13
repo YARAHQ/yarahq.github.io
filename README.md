@@ -10,9 +10,17 @@ Choose the YARA rule set that meets your requirements:
 - **Extended Set**: Includes Core rules plus additional ones, excluding rules newer than 24 hours for a balance of scope and accuracy.
 - **Full Set**: The most comprehensive set, offering the widest range of functional rules, omitting only those that are broken or of low quality.
 
+## Build Log
+
+You can review the build log of the latest release [here](https://github.com/YARAHQ/yara-forge/actions/workflows/weekly-release.yml).
+
 ## Overview
 
 ![YARA Forge Overview](./assets/images/yara-forge-infograph.png)
+
+## Examples
+
+TBD - before and after pictures of rules
 
 ## YARA Forge Program Code
 
