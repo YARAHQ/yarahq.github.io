@@ -14,14 +14,14 @@ Choose the YARA rule set that meets your requirements:
 
 ![YARA Forge Overview](./assets/images/yara-forge-infograph.png)
 
-## Input Repositories
-
-The integrated YARA rule repositories can be reviewed [here](https://github.com/YARAHQ/yara-forge/blob/master/yara-forge-config.yml).
-
 ## YARA Forge Program Code
 
-You can find the YARA Forge program code and configuration [here](https://github.com/YARAHQ/yara-forge).
+You can find the YARA Forge program code [here](https://github.com/YARAHQ/yara-forge).
 
 ## Credits
+
+This work wouldn't have been possible without the valuable contribution of many great people from the community. I would like to extend my special thanks to: Elastic, ReversingLabs, Avast ...
+
+For a full list of all integrated YARA rule repositories, review the config file [here](https://github.com/YARAHQ/yara-forge/blob/master/yara-forge-config.yml).
 
 [Florian Roth](https://x.com/cyb3rops)
