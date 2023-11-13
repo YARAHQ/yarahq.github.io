@@ -24,4 +24,5 @@ This work wouldn't have been possible without the valuable contribution of many 
 
 For a full list of all integrated YARA rule repositories, review the config file [here](https://github.com/YARAHQ/yara-forge/blob/master/yara-forge-config.yml).
 
-[Florian Roth](https://x.com/cyb3rops)
+Authors of the YARA rules: [many](https://github.com/YARAHQ/yara-forge/releases/latest/download/yara-forge-log.txt)
+Author of YARA Forge: [Florian Roth](https://x.com/cyb3rops)
