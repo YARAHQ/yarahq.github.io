@@ -32,7 +32,8 @@ The output phase involves the creation of rule packages. Three distinct rule set
 
 The --debug flag enables verbose logging, providing detailed information on the rule retrieval process, quality checks, and filter application. This facilitates debugging and offers transparency into the rule selection and packaging process.
 
-You can review the build log of the latest release [here](https://github.com/YARAHQ/yara-forge/actions/workflows/weekly-release.yml).
+You can review the build of the latest release [here](https://github.com/YARAHQ/yara-forge/actions/workflows/weekly-release.yml).
+The log file of the latest build can be viewed [here](https://github.com/YARAHQ/yara-forge/releases/latest/download/yara-forge-log.txt)
 
 ## Overview
 
@@ -46,9 +47,14 @@ TBD - before and after pictures of rules
 
 You can find the YARA Forge program code [here](https://github.com/YARAHQ/yara-forge).
 
+## Next Steps
+
+- Automatic transformations: I'd like to automatically transform rules to improve them, e.g. rewrite a `$mz = { 4d 5a }` as `uint16(0) == 0x5a4d`
+- Automated goodware tests: currently I still test the rules manually and add negative scores in the `custom-score-reductions.yml` file for rules that have shown to produce false positives on our internal goodware set. In order to test them live in the github workflows, the script would need access to an [Mquery](https://github.com/CERT-Polska/mquery) or [Klara](https://github.com/KasperskyLab/klara) instance from within the workflows to evaluate the number of false positives matches while it's running. I still don't know how to approach that challenge. Please contact me if you have an idea how to do this.
+
 ## Credits
 
-This work wouldn't have been possible without the valuable contribution of many great people from the community. I would like to extend my special thanks to: Elastic, ReversingLabs, Avast ...
+This work wouldn't have been possible without the valuable contribution of many great people from the community. I would like to extend my special thanks to: ESET TI, Googgle CTI, Elastic, ReversingLabs, Avast, Volexity, Malpedia ...
 
 For a full list of all integrated YARA rule repositories, review the config file [here](https://github.com/YARAHQ/yara-forge/blob/master/yara-forge-config.yml).
 
