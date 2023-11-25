@@ -10,6 +10,35 @@ Choose the YARA rule set that meets your requirements:
 - **Extended Set**: Includes Core rules plus additional ones, excluding rules newer than 24 hours for a balance of scope and accuracy.
 - **Full Set**: The most comprehensive set, offering the widest range of functional rules, omitting only those that are broken or of low quality.
 
+### Recommended Use Cases
+
+The following 
+
+#### Core
+
+The "Core" rule set tries to avoid rules that are prone to false positives or have a significant impact on performance. It excludes rules with low "score" values, which are considered "threat hunting" rules and rules with lower "quality" values as they can have a significant impact on performance. It's the essence of the most stable and most certain rules.
+
+Use the "Core" rule set if you ...
+
+- want to avoid false positives at all costs
+- only want rules that are performance optimized and save to use
+- want to the most limited set with high certainty matches
+
+#### Extended
+
+The "Extended" rule set represents the golden mean. It includes the "Core" set and add adds highly effective threat hunting rules, which could result in some false positives and a slight impact on scan performance. It excludes experimental rules or rules with a very low quality score.
+
+Use the "Extended" rule set if you ...
+
+- TBD
+
+#### Full
+
+
+## Overview
+
+![YARA Forge Overview](./assets/images/yara-forge-infograph.png)
+
 ### More Detailed Description
 
 #### Collection
@@ -22,7 +51,7 @@ During processing, rules are conformed to a standardized format defined in the p
 
 #### Quality Checks
 
-Quality assessment is conducted by assigning a score to each rule based on several characteristics, with the aim of quantifying rule quality. The base score from the YARA Forge configuration file is adjusted according to any detected issues with a rule. Rule evaluation is performed using YARA for detecting syntax errors and performance warnings, and yaraQA for identifying less apparent logic and performance issues. yaraQA checks include evaluations of string duplication, atom length, module calculation costs, and regular expression performance. Issues identified result in deductions from the rule's quality score, as defined in the configuration file. Manual quality deductions are also applied for rules known to generate false positives in goodware databases.
+Quality assessment is conducted by assigning different scores to each rule based on several characteristics (quality, importance, severity), with the aim of quantifying rule relevance for the different output packages. The base quality score from the YARA Forge configuration file is adjusted according to any detected issues with a rule. Rule evaluation is performed using YARA for detecting syntax errors and performance warnings, and yaraQA for identifying less apparent logic and performance issues. yaraQA checks include evaluations of string duplication, atom length, module calculation costs, and regular expression performance. Issues identified result in deductions from the rule's quality score, as defined in the configuration file. Manual quality deductions are also applied for rules known to generate false positives in goodware databases.
 
 #### Output
 
@@ -34,10 +63,6 @@ The --debug flag enables verbose logging, providing detailed information on the 
 
 You can review the build of the latest release [here](https://github.com/YARAHQ/yara-forge/actions/workflows/weekly-release.yml).
 The log file of the latest build can be viewed [here](https://github.com/YARAHQ/yara-forge/releases/latest/download/yara-forge-log.txt)
-
-## Overview
-
-![YARA Forge Overview](./assets/images/yara-forge-infograph.png)
 
 ## Examples
 
