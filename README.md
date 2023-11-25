@@ -54,7 +54,7 @@ You can find the YARA Forge program code [here](https://github.com/YARAHQ/yara-f
 
 ## Credits
 
-This work wouldn't have been possible without the valuable contribution of many great people from the community. I would like to extend my special thanks to: ESET TI, Googgle CTI, Elastic, ReversingLabs, Avast, Volexity, Malpedia ...
+This work wouldn't have been possible without the valuable contribution of many great people from the community. I would like to extend my special thanks to: ESET TI, Google CTI, Elastic, ReversingLabs, Avast, Volexity, Malpedia ...
 
 For a full list of all integrated YARA rule repositories, review the config file [here](https://github.com/YARAHQ/yara-forge/blob/master/yara-forge-config.yml).
 
