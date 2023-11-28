@@ -84,6 +84,51 @@ After:
 
 ![Rule after alignments](./assets/images/example_1_after.png)
 
+### Rule Set Header Example
+
+```
+/*
+ * YARA-Forge YARA Rule Package
+ * https://github.com/YARAHQ/yara-forge
+ * 
+ * Rule Package Information
+ * Name: core 
+ * Description: Default YARA Rule Package - Core
+ * YARA-Forge Version: 0.6.0
+ * YARA-QA Commit: 6d0cfc3b5356c3a58f79d98077ad505e4493785c
+ * Minimum Quality: 70
+ * Force Include Importance Level: 80
+ * Force Exclude Importance Level: 50
+ * Minimum Age (in days): 7
+ * Minimum Score: 65
+ * Creation Date: 2023-11-28
+ * Skipped: 957 (age), 581 (quality)
+ */
+```
+
+### Rule Set Section Header Example
+
+```
+/*
+ * YARA Rule Set
+ * Repository Name: Elastic
+ * Repository: https://github.com/elastic/protections-artifacts/
+ * Retrieval Date: 2023-11-25
+ * Git Commit: af61b845ed5e40a65f8ffc9d563c226ff02bf5c0
+ * Skipped: 0 (age), 69 (quality)
+ * 
+ * LICENSE
+ * 
+ * Elastic License 2.0
+
+URL: https://www.elastic.co/licensing/elastic-license
+
+## Acceptance
+
+By using the software, you agree to all of the terms and conditions below.
+...
+```
+
 ## YARA Forge Program Code
 
 You can find the YARA Forge program code [here](https://github.com/YARAHQ/yara-forge).
