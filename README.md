@@ -84,6 +84,14 @@ After:
 
 ![Rule after alignments](./assets/images/example_1_after.png)
 
+### Regular Expression Performance Measurements
+
+![Regex Performance Measurements](./assets/images/example_regex_qa.png)
+
+### yaraQA Performance Issue Evaluations
+
+![yaraQA Performance Issue Evaluations](./assets/images/example_perf_issues.png)
+
 ### Rule Set Header Example
 
 ```
