@@ -74,7 +74,15 @@ The log file of the latest build can be viewed [here](https://github.com/YARAHQ/
 
 ## Examples
 
-TBD - before and after pictures of rules
+### Rule Example
+
+Before:
+
+![Rule before alignments](./assets/images/example_1_before.png)
+
+After:
+
+![Rule after alignments](./assets/images/example_1_after.png)
 
 ## YARA Forge Program Code
 
