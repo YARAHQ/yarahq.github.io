@@ -15,3 +15,13 @@ h1, h2, h3, h4, strong {
 .language-plaintext {
   color: #f4db77;
 }
+
+a:hover, a:focus {
+  color: #f6d654;
+  /* font-weight: bold; */
+}
+
+a {
+  color: #f4db77;
+  /* text-decoration: none; */
+}
