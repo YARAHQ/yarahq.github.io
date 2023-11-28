@@ -18,10 +18,10 @@ h1, h2, h3, h4, strong {
 
 a:hover, a:focus {
   color: #f6d654;
-  /* font-weight: bold; */
+  font-weight: normal;
 }
 
 a {
   color: #f4db77;
-  /* text-decoration: none; */
+  text-decoration: underline;
 }
