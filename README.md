@@ -6,9 +6,9 @@ The output is a set of reliable, performance-oriented YARA rules, curated and re
 
 Choose the YARA rule set that meets your requirements:
 
-- **Core Set**: Quality-assured YARA rules. Excludes rules newer than 7 days to reduce false positives.
-- **Extended Set**: Includes Core rules plus additional ones, excluding rules newer than 24 hours for a balance of scope and accuracy.
-- **Full Set**: The most comprehensive set, offering the widest range of functional rules, omitting only those that are broken or of low quality.
+- **Core Set**: Contains only rules with high accuracy and low false positive rates, optimized for performance. Ideal for critical environments where stability is key.
+- **Extended Set**: Expands the Core Set with additional threat hunting rules for a wider coverage, accepting minimal increases in false positives and scan impact. Suitable for balanced security needs.
+- **Full Set**: Incorporates all functional rules, prioritizing breadth of threat detection. Best for scenarios where extensive coverage outweighs the cost of higher false positives and resource use.
 
 ### Recommended Use Cases
 
