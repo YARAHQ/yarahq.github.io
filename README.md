@@ -12,28 +12,36 @@ Choose the YARA rule set that meets your requirements:
 
 ### Recommended Use Cases
 
-The following 
+This section provides details on each rule set and their intended use in a technical environment.
 
 #### Core
 
-The "Core" rule set tries to avoid rules that are prone to false positives or have a significant impact on performance. It excludes rules with low "score" values, which are considered "threat hunting" rules and rules with lower "quality" values as they can have a significant impact on performance. It's the essence of the most stable and most certain rules.
+The "Core" rule set excludes rules with a high propensity for false positives and those that significantly affect system performance. It filters out low "score" rules, often used for threat hunting, and low "quality" rules that may slow down scans. This set prioritizes stability and accuracy.
 
-Use the "Core" rule set if you ...
+Use the "Core" rule set if you need to:
 
-- want to avoid false positives at all costs
-- only want rules that are performance optimized and save to use
-- want to the most limited set with high certainty matches
+- Minimize false positives
+- Ensure rules are performance-optimized
+- Employ a concise set of highly accurate rules
 
 #### Extended
 
-The "Extended" rule set represents the golden mean. It includes the "Core" set and add adds highly effective threat hunting rules, which could result in some false positives and a slight impact on scan performance. It excludes experimental rules or rules with a very low quality score.
+The "Extended" rule set builds upon the "Core" by adding effective threat hunting rules that might slightly increase false positives and affect scan performance. It excludes rules that are experimental or have very low quality scores.
 
-Use the "Extended" rule set if you ...
+The "Extended" rule set is ideal for those who:
 
-- TBD
+- Want a balance between detection capability and performance
+- Prefer broader coverage with a controlled increase in false positives
 
 #### Full
 
+The "Full" rule set includes all operational rules from the repositories, except for those that are non-functional or have a severe impact on performance. It comprises threat hunting rules and expects a higher volume of false positives.
+
+Choose the "Full" rule set if you:
+
+- Aim for the broadest threat coverage available
+- Have a system in place to manage false positives effectively
+- Are less concerned about the impact on system resources and scanning speed
 
 ## Overview
 
