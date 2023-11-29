@@ -94,7 +94,7 @@ After:
 
 ### Rule Set Header Example
 
-```
+```text
 /*
  * YARA-Forge YARA Rule Package
  * https://github.com/YARAHQ/yara-forge
@@ -116,13 +116,14 @@ After:
 
 ### Rule Set Section Header Example
 
-```
+```text
 /*
  * YARA Rule Set
  * Repository Name: Elastic
  * Repository: https://github.com/elastic/protections-artifacts/
- * Retrieval Date: 2023-11-25
+ * Retrieval Date: 2023-11-29
  * Git Commit: af61b845ed5e40a65f8ffc9d563c226ff02bf5c0
+ * Number of Rules: 1331
  * Skipped: 0 (age), 69 (quality)
  * 
  * LICENSE
@@ -132,8 +133,6 @@ After:
 URL: https://www.elastic.co/licensing/elastic-license
 
 ## Acceptance
-
-By using the software, you agree to all of the terms and conditions below.
 ...
 ```
 
