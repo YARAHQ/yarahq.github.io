@@ -69,8 +69,8 @@ The output phase involves the creation of rule packages. Three distinct rule set
 
 The --debug flag enables verbose logging, providing detailed information on the rule retrieval process, quality checks, and filter application. This facilitates debugging and offers transparency into the rule selection and packaging process.
 
-You can review the build of the latest release [here](https://github.com/YARAHQ/yara-forge/actions/workflows/weekly-release.yml).
 The log file of the latest build can be viewed [here](https://github.com/YARAHQ/yara-forge/releases/latest/download/yara-forge-log.txt)
+The discovered quality / performance / resource usage issues can be found [here](https://github.com/YARAHQ/yara-forge/releases/latest/download/yara-forge-rule-issues.yml)
 
 ## Examples
 
