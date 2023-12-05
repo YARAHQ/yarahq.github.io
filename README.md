@@ -85,7 +85,15 @@ After:
 
 ![Rule after alignments](./assets/images/example_1_after.png)
 
+### Rule Issues
+
+The file `yara-forge-rule-issues.yml` contains all identified issues with the collected rules. It gets uploaded as an attachment to each rule set release.
+
+![Identified Rule Issues](./assets/images/example_rule_issues_yml.png)
+
 ### Regular Expression Performance Measurements
+
+
 
 ![Regex Performance Measurements](./assets/images/example_regex_qa.png)
 
@@ -108,10 +116,11 @@ After:
  * Minimum Quality: 70
  * Force Include Importance Level: 80
  * Force Exclude Importance Level: 50
- * Minimum Age (in days): 7
+ * Minimum Age (in days): 1
  * Minimum Score: 65
- * Creation Date: 2023-11-28
- * Skipped: 957 (age), 581 (quality)
+ * Creation Date: 2023-12-04
+ * Number of Rules: 7164
+ * Skipped: 0 (age), 583 (quality), 663 (score), 1195 (importance)
  */
 ```
 
@@ -122,10 +131,11 @@ After:
  * YARA Rule Set
  * Repository Name: Elastic
  * Repository: https://github.com/elastic/protections-artifacts/
- * Retrieval Date: 2023-11-29
- * Git Commit: af61b845ed5e40a65f8ffc9d563c226ff02bf5c0
+ * Retrieval Date: 2023-12-04
+ * Git Commit: cb45629514acefc68a9d08111b3a76bc90e52238
  * Number of Rules: 1331
- * Skipped: 0 (age), 69 (quality)
+ * Skipped: 0 (age), 69 (quality), 0 (score), 0 (importance)
+ *
  * 
  * LICENSE
  * 
@@ -155,3 +165,40 @@ For a full list of all integrated YARA rule repositories, review the config file
 Authors of the YARA rules: [many](https://github.com/YARAHQ/yara-forge/releases/latest/download/yara-forge-log.txt)
 
 Author of YARA Forge: [Florian Roth](https://x.com/cyb3rops)
+
+### Integrated Repositories
+
+- name: "ReversingLabs"
+   url: "https://github.com/reversinglabs/reversinglabs-yara-rules/"
+- name: "Elastic"
+   url: "https://github.com/elastic/protections-artifacts/"
+- name: "R3c0nst"
+   url: "https://github.com/fboldewin/YARA-rules/"
+- name: "CAPE"
+   url: "https://github.com/kevoreilly/CAPEv2"
+- name: "BinaryAlert"
+   url: "https://github.com/airbnb/binaryalert/"
+- name: "DeadBits"
+   url: "https://github.com/deadbits/yara-rules/"
+- name: "DelivrTo"
+   url: "https://github.com/delivr-to/detections"
+- name: "ESET"
+   url: "https://github.com/eset/malware-ioc"
+- name: "FireEye-RT"
+   url: "https://github.com/mandiant/red_team_tool_countermeasures/"
+- name: "GCTI"
+   url: "https://github.com/chronicle/GCTI"
+- name: "Malpedia"
+   url: "https://github.com/malpedia/signator-rules/"
+- name: "McAfee ATR"
+   url: "https://github.com/advanced-threat-research/Yara-Rules/"
+- name: "Arkbird SOLG"
+   url: "https://github.com/StrangerealIntel/DailyIOC"
+- name: "Telekom Security"
+   url: "https://github.com/telekom-security/malware_analysis/"
+- name: "Volexity"
+   url: "https://github.com/volexity/threat-intel"
+- name: "JPCERTCC"
+   url: "https://github.com/JPCERTCC/MalConfScan/"
+- name: "Signature Base"
+   url: "https://github.com/Neo23x0/signature-base"
