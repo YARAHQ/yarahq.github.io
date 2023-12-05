@@ -168,37 +168,22 @@ Author of YARA Forge: [Florian Roth](https://x.com/cyb3rops)
 
 ### Integrated Repositories
 
-- name: "ReversingLabs"
-   url: "https://github.com/reversinglabs/reversinglabs-yara-rules/"
-- name: "Elastic"
-   url: "https://github.com/elastic/protections-artifacts/"
-- name: "R3c0nst"
-   url: "https://github.com/fboldewin/YARA-rules/"
-- name: "CAPE"
-   url: "https://github.com/kevoreilly/CAPEv2"
-- name: "BinaryAlert"
-   url: "https://github.com/airbnb/binaryalert/"
-- name: "DeadBits"
-   url: "https://github.com/deadbits/yara-rules/"
-- name: "DelivrTo"
-   url: "https://github.com/delivr-to/detections"
-- name: "ESET"
-   url: "https://github.com/eset/malware-ioc"
-- name: "FireEye-RT"
-   url: "https://github.com/mandiant/red_team_tool_countermeasures/"
-- name: "GCTI"
-   url: "https://github.com/chronicle/GCTI"
-- name: "Malpedia"
-   url: "https://github.com/malpedia/signator-rules/"
-- name: "McAfee ATR"
-   url: "https://github.com/advanced-threat-research/Yara-Rules/"
-- name: "Arkbird SOLG"
-   url: "https://github.com/StrangerealIntel/DailyIOC"
-- name: "Telekom Security"
-   url: "https://github.com/telekom-security/malware_analysis/"
-- name: "Volexity"
-   url: "https://github.com/volexity/threat-intel"
-- name: "JPCERTCC"
-   url: "https://github.com/JPCERTCC/MalConfScan/"
-- name: "Signature Base"
-   url: "https://github.com/Neo23x0/signature-base"
+Status as of 2021-12-04
+
+- ReversingLabs: https://github.com/reversinglabs/reversinglabs-yara-rules/
+- Elastic: https://github.com/elastic/protections-artifacts/
+- R3c0nst: https://github.com/fboldewin/YARA-rules/
+- CAPE: https://github.com/kevoreilly/CAPEv2
+- BinaryAlert: https://github.com/airbnb/binaryalert/
+- DeadBits: https://github.com/deadbits/yara-rules/
+- DelivrTo: https://github.com/delivr-to/detections
+- ESET: https://github.com/eset/malware-ioc
+- FireEye-RT: https://github.com/mandiant/red_team_tool_countermeasures/
+- GCTI: https://github.com/chronicle/GCTI
+- Malpedia: https://github.com/malpedia/signator-rules/
+- McAfee ATR: https://github.com/advanced-threat-research/Yara-Rules/
+- Arkbird SOLG: https://github.com/StrangerealIntel/DailyIOC
+- Telekom Security: https://github.com/telekom-security/malware_analysis/
+- Volexity: https://github.com/volexity/threat-intel
+- JPCERTCC: https://github.com/JPCERTCC/MalConfScan/
+- Signature Base: https://github.com/Neo23x0/signature-base
