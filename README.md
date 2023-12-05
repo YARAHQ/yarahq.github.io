@@ -158,15 +158,9 @@ You can find the YARA Forge program code [here](https://github.com/YARAHQ/yara-f
 
 ## Credits
 
-This work wouldn't have been possible without the valuable contribution of many great people from the community. I would like to extend my special thanks to: ESET TI, Google CTI, Elastic, ReversingLabs, Avast, Volexity, Malpedia ...
+I want to express my sincere appreciation to all the repository owners and rule authors who have indirectly contributed to YARA Forge. Your commitment to cybersecurity and the high quality of your work have allowed me to offer a solution that effectively reformats, filters, and repackages your rules into more functional and accessible packages.
 
-For a full list of all integrated YARA rule repositories, review the config file [here](https://github.com/YARAHQ/yara-forge/blob/master/yara-forge-config.yml).
-
-Authors of the YARA rules: [many](https://github.com/YARAHQ/yara-forge/releases/latest/download/yara-forge-log.txt)
-
-Author of YARA Forge: [Florian Roth](https://x.com/cyb3rops)
-
-### Integrated Repositories
+Below is the list of repositories included in the initial release of YARA Forge:
 
 Status as of 2021-12-04
 
@@ -187,3 +181,7 @@ Status as of 2021-12-04
 - Volexity: https://github.com/volexity/threat-intel
 - JPCERTCC: https://github.com/JPCERTCC/MalConfScan/
 - Signature Base: https://github.com/Neo23x0/signature-base
+
+For a full list of all currently integrated YARA rule repositories, review the config file [here](https://github.com/YARAHQ/yara-forge/blob/master/yara-forge-config.yml).
+
+Author of YARA Forge: [Florian Roth](https://x.com/cyb3rops)
