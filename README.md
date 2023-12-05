@@ -164,23 +164,23 @@ Below is the list of repositories included in the initial release of YARA Forge:
 
 Status as of 2021-12-04
 
-- ReversingLabs: https://github.com/reversinglabs/reversinglabs-yara-rules/
-- Elastic: https://github.com/elastic/protections-artifacts/
-- R3c0nst: https://github.com/fboldewin/YARA-rules/
-- CAPE: https://github.com/kevoreilly/CAPEv2
-- BinaryAlert: https://github.com/airbnb/binaryalert/
-- DeadBits: https://github.com/deadbits/yara-rules/
-- DelivrTo: https://github.com/delivr-to/detections
-- ESET: https://github.com/eset/malware-ioc
-- FireEye-RT: https://github.com/mandiant/red_team_tool_countermeasures/
-- GCTI: https://github.com/chronicle/GCTI
-- Malpedia: https://github.com/malpedia/signator-rules/
-- McAfee ATR: https://github.com/advanced-threat-research/Yara-Rules/
-- Arkbird SOLG: https://github.com/StrangerealIntel/DailyIOC
-- Telekom Security: https://github.com/telekom-security/malware_analysis/
-- Volexity: https://github.com/volexity/threat-intel
-- JPCERTCC: https://github.com/JPCERTCC/MalConfScan/
-- Signature Base: https://github.com/Neo23x0/signature-base
+- [ReversingLabs](https://github.com/reversinglabs/reversinglabs-yara-rules/)
+- [Elastic](https://github.com/elastic/protections-artifacts/)
+- [R3c0nst](https://github.com/fboldewin/YARA-rules/)
+- [CAPE](https://github.com/kevoreilly/CAPEv2)
+- [BinaryAlert](https://github.com/airbnb/binaryalert/)
+- [DeadBits](https://github.com/deadbits/yara-rules/)
+- [DelivrTo](https://github.com/delivr-to/detections)
+- [ESET](https://github.com/eset/malware-ioc)
+- [FireEye-RT](https://github.com/mandiant/red_team_tool_countermeasures/)
+- [GCTI](https://github.com/chronicle/GCTI)
+- [Malpedia](https://github.com/malpedia/signator-rules/)
+- [McAfee ATR](https://github.com/advanced-threat-research/Yara-Rules/)
+- [Arkbird SOLG](https://github.com/StrangerealIntel/DailyIOC)
+- [Telekom Security](https://github.com/telekom-security/malware_analysis/)
+- [Volexity](https://github.com/volexity/threat-intel)
+- [JPCERTCC](https://github.com/JPCERTCC/MalConfScan/)
+- [Signature Base](https://github.com/Neo23x0/signature-base)
 
 For a full list of all currently integrated YARA rule repositories, review the config file [here](https://github.com/YARAHQ/yara-forge/blob/master/yara-forge-config.yml).
 
