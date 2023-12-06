@@ -59,7 +59,7 @@ During processing, rules are conformed to a standardized format defined in the p
 
 #### Quality Checks
 
-Quality assessment is conducted by assigning different scores to each rule based on several characteristics (quality, importance, severity), with the aim of quantifying rule relevance for the different output packages. The base quality score from the YARA Forge configuration file is adjusted according to any detected issues with a rule. Rule evaluation is performed using YARA for detecting syntax errors and performance warnings, and yaraQA for identifying less apparent logic and performance issues. yaraQA checks include evaluations of string duplication, atom length, module calculation costs, and regular expression performance. Issues identified result in deductions from the rule's quality score, as defined in the configuration file. Manual quality deductions are also applied for rules known to generate false positives in goodware databases.
+Quality assessment is conducted by assigning different scores to each rule based on several characteristics (quality, importance, severity), with the aim of quantifying rule relevance for the different output packages. The base quality score from the YARA Forge configuration file is adjusted according to any detected issues with a rule. Rule evaluation is performed using YARA for detecting syntax errors and performance warnings, and [yaraQA](https://github.com/Neo23x0/yaraQA) for identifying less apparent logic and performance issues. yaraQA checks include evaluations of string duplication, atom length, module calculation costs, and regular expression performance. Issues identified result in deductions from the rule's quality score, as defined in the configuration file. Manual quality deductions are also applied for rules known to generate false positives in goodware databases.
 
 #### Output
 
@@ -92,8 +92,6 @@ The file `yara-forge-rule-issues.yml` contains all identified issues with the co
 ![Identified Rule Issues](./assets/images/example_rule_issues_yml.png)
 
 ### Regular Expression Performance Measurements
-
-
 
 ![Regex Performance Measurements](./assets/images/example_regex_qa.png)
 
@@ -151,10 +149,15 @@ URL: https://www.elastic.co/licensing/elastic-license
 
 You can find the YARA Forge program code [here](https://github.com/YARAHQ/yara-forge).
 
+## YARA Release Packages
+
+The YARA rule packages are released as GitHub releases in the [YARA Forge repository](https://github.com/YARAHQ/yara-forge/releases).
+
 ## Next Steps
 
 - Automatic transformations: I'd like to automatically transform rules to improve them, e.g. rewrite a `$mz = { 4d 5a }` as `uint16(0) == 0x5a4d`
-- Automated goodware tests: currently I still test the rules manually and add negative scores in the `custom-score-reductions.yml` file for rules that have shown to produce false positives on our internal goodware set. In order to test them live in the github workflows, the script would need access to an [Mquery](https://github.com/CERT-Polska/mquery) or [Klara](https://github.com/KasperskyLab/klara) instance from within the workflows to evaluate the number of false positives matches while it's running. I still don't know how to approach that challenge. Please contact me if you have an idea how to do this.
+- Improved and added performance measurements: I'd like to measure the performance of other string types (not just regular expressions), complex condition evaluations and imported module functions (e.g. `pe` module functions).
+- Automated rule testing: I'd like to automatically test the rules against a set of goodware and malware samples to identify false positives and false negatives. Currently I still test the rules manually and add negative scores in the `custom-score-reductions.yml` file for rules that have shown to produce false positives on our internal goodware set. In order to test them live in the github workflows, the script would need access to an [Mquery](https://github.com/CERT-Polska/mquery) or [Klara](https://github.com/KasperskyLab/klara) instance from within the workflows to evaluate the number of false positives matches while it's running. I still don't know how to approach that challenge. Please contact me if you have an idea how to do this.
 
 ## Credits
 
