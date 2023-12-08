@@ -79,11 +79,11 @@ The discovered quality / performance / resource usage issues can be found [here]
 
 Before:
 
-![Rule before alignments](./assets/images/example_1_before.png)
+![Rule before alignments](./assets/images/example_2_before.png)
 
 After:
 
-![Rule after alignments](./assets/images/example_1_after.png)
+![Rule after alignments](./assets/images/example_2_after.png)
 
 ### Rule Issues
 
@@ -158,6 +158,7 @@ The YARA rule packages are released as GitHub releases in the [YARA Forge reposi
 - Automatic transformations: I'd like to automatically transform rules to improve them, e.g. rewrite a `$mz = { 4d 5a }` as `uint16(0) == 0x5a4d`
 - Improved and added performance measurements: I'd like to measure the performance of other string types (not just regular expressions), complex condition evaluations and imported module functions (e.g. `pe` module functions).
 - Automated rule testing: I'd like to automatically test the rules against a set of goodware and malware samples to identify false positives and false negatives. Currently I still test the rules manually and add negative scores in the `custom-score-reductions.yml` file for rules that have shown to produce false positives on our internal goodware set. In order to test them live in the github workflows, the script would need access to an [Mquery](https://github.com/CERT-Polska/mquery) or [Klara](https://github.com/KasperskyLab/klara) instance from within the workflows to evaluate the number of false positives matches while it's running. I still don't know how to approach that challenge. Please contact me if you have an idea how to do this.
+- Better tracking of changes in rules and repositories: I'd like to track changes in rules better. Currently I only track the latest commit hash of a repository and the latest modification time of a rule. This would allow me to identify rules that have been changed and need to be re-evaluated. (e.g. false positives have been fixed, performance issues have been resolved, etc.)
 
 ## Credits
 
