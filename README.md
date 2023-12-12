@@ -167,7 +167,7 @@ I want to express my sincere appreciation to all the repository owners and rule 
 
 Below is the list of repositories included in the initial release of YARA Forge:
 
-Status as of 2021-12-04
+Status as of 2021-12-12
 
 - [ReversingLabs](https://github.com/reversinglabs/reversinglabs-yara-rules/)
 - [Elastic](https://github.com/elastic/protections-artifacts/)
