@@ -186,6 +186,9 @@ Status as of 2021-12-04
 - [Volexity](https://github.com/volexity/threat-intel)
 - [JPCERTCC](https://github.com/JPCERTCC/MalConfScan/)
 - [Signature Base](https://github.com/Neo23x0/signature-base)
+- [SecuInfra](https://github.com/SIFalcon/Detection)
+- [RussianPanda](https://github.com/RussianPanda95/Yara-Rules)
+- [Others](https://github.com/mikesxrs/Open-Source-YARA-rules) via Michael Worth's repository
 
 For a full list of all currently integrated YARA rule repositories, review the config file [here](https://github.com/YARAHQ/yara-forge/blob/master/yara-forge-config.yml).
 
