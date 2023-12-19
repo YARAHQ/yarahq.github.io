@@ -155,6 +155,7 @@ The YARA rule packages are released as GitHub releases in the [YARA Forge reposi
 
 ## Next Steps
 
+- Add more repositories: I'd like to add more repositories to the collection. If you know of any good repositories, please let me know. (I'm in contact with Jakub from Avast and I'm going to add the [Avast rules](https://github.com/avast/ioc) to the collection as soon as they've decided on a license)
 - Automatic transformations: I'd like to automatically transform rules to improve them, e.g. rewrite a `$mz = { 4d 5a }` as `uint16(0) == 0x5a4d`
 - Keep some of the formatting in the conditions or apply the one described in the best practice guide
 - Improved and added performance measurements: I'd like to measure the performance of other string types (not just regular expressions), complex condition evaluations and imported module functions (e.g. `pe` module functions).
